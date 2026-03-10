@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="Flowpay"
-run/main_scene="uid://6qtjldo6sykm"
+run/main_scene="uid://ccsof422el5dy"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Firebase="*res://addons/godot-firebase/firebase/firebase.tscn"
+GlobalManager="*res://Scripts/GlobalManager.gd"
 
 [display]
 
